@@ -83,8 +83,10 @@
                                             :start-stamp (frr:recorder-start-stamp recorder)
                                             :end-stamp   (current-time-string)
                                             :is-posted   nil)))
-             (frr:post-history history)
-             (setf (frr:history-is-posted history) t) ;; 本来は post-history 内でsuccess時にやるべきだが，requestが絶対failするのでこうしている
+
+             (cond ((frr:history-path history)
+                    (frr:post-history history)
+                    (setf (frr:history-is-posted history) t))) ;; 本来は post-history 内でsuccess時にやるべきだが，requestが絶対failするのでこうしている
              (push history frr:histories))
            (frr:save-histories)
            (setf (frr:recorder-is-on recorder) nil)
