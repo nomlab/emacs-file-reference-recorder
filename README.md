@@ -3,7 +3,7 @@ Emacs File Reference Recorder is a recording file history client for DTB.
 Please refer to [DTB's repository](https://github.com/nomlab/DTB) in order to know DTB.
 
 ## Version
-0.2
+0.3
 
 ## Requirements
 + Emacs 24 or higher
