@@ -36,7 +36,7 @@ $ echo "(add-to-list 'load-path \"~/.emacs.d/elpa/emacs-file-reference-recorder\
 
 ```sh
 $ echo "(require 'file-reference-recorder)" >> ~/.emacs.d/init.el
-$ echo "(custom-set-variables '(dtb-url \"http://localhost:3000\")'(history-location \"~/.file-reference-history\"))" >> ~/.emacs.d/init.el
+$ echo "(custom-set-variables '(frr:dtb-url \"http://localhost:3000\")'(frr:history-location \"~/.file-reference-history\"))" >> ~/.emacs.d/init.el
 ```
 
 ## How to use
