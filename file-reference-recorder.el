@@ -61,7 +61,9 @@
 ;; file operation functions
 (defun frr:init-histories-file ()
   "Initialize file storing history at frr:history-location"
-  (with-temp-buffer (write-file frr:history-location)))
+  (with-temp-buffer
+    (insert "()")
+    (write-file frr:history-location)))
 
 (defun frr:save-histories ()
   "save file reference histories to frr:history-location"
