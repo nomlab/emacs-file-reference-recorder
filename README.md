@@ -6,7 +6,7 @@ Please refer to [DTB's repository](https://github.com/nomlab/DTB) in order to kn
 0.3
 
 ## Requirements
-+ Emacs 24 or higher
++ Emacs *24.4* or higher
 + Latest [request.el](https://github.com/tkf/emacs-request)
 
 ## Install and Setup
