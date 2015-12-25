@@ -4,7 +4,7 @@
 
 ;; Author: Takuya Okada <pitipitiunsyumikan@gmail.com>
 ;; URL: ***************************************************************
-;; Version: 0.3
+;; Version: 0.4
 ;; Package-Requires: ((request "0.2.0"))
 
 ;; This program is free software; you can redistribute it and/or modify
