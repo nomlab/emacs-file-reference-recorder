@@ -158,6 +158,6 @@
 (add-hook 'post-command-hook       'frr:start-recording)
 
 (add-hook 'focus-out-hook   'frr:stop-recording)
-(add-hook 'kill-emacs-hooks 'frr:stop-recording)
+(add-hook 'kill-emacs-hook  'frr:stop-recording)
 
 (provide 'file-reference-recorder)
